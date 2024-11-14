@@ -1,5 +1,11 @@
-let phoneNumber = "208-371-3115";
+// let sum = function (a, b) {
+//   return a + b;
+// };
 
-let values = phoneNumber.replaceAll("-", "&");
+// let sum = (a, b) => a + b;
 
-console.log(values);
+let sum = function(a,b) a + b;
+
+let result = sum(1, 2);
+
+console.log(result);
