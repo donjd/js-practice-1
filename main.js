@@ -1,11 +1,6 @@
-// let sum = function (a, b) {
-//   return a + b;
-// };
+const countries = ["usa", "russia", "india", "mexico", "france"];
 
-// let sum = (a, b) => a + b;
+const newOrder = countries.toSpliced(2, 0, "botswana");
 
-let sum = function(a,b) a + b;
-
-let result = sum(1, 2);
-
-console.log(result);
+console.log(countries);
+console.log(newOrder);
