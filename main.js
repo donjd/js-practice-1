@@ -1,8 +1,7 @@
-//launch countdown
-const paraContainer = document.querySelector(".output");
+const buttons = document.querySelectorAll("button");
 
-for (let i = 10; i >= 0; i--) {
-  const para = document.createElement("p");
-  paraContainer.appendChild(para);
-  para.textContent = i;
-}
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    alert(button.id);
+  });
+});
